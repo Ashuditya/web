@@ -36,8 +36,7 @@ while(1):
 
     lower_blue = np.array([81,0,100], dtype = np.uint8)
     upper_blue = np.array([132,255,255], dtype = np.uint8)
-    
-    
+    #color values corrected
     
     red = cv2.inRange(hsv, lower_red, upper_red)
     green = cv2.inRange(hsv, lower_green, upper_green)
